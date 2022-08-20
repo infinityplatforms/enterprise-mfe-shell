@@ -1,0 +1,31 @@
+{
+  "generator-ngx-rocket": {
+    "version": "10.1.2",
+    "props": {
+      "location": "path",
+      "strict": true,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "usePrefix": true,
+      "appName": "shell-app",
+      "target": ["web"],
+      "ui": "bootstrap",
+      "features": ["lazy", "cypress"],
+      "languages": ["en-US"],
+      "tools": ["prettier", "hads"],
+      "utility": ["lodash"],
+      "deploy": "none",
+      "projectName": "shell-app",
+      "packageManager": "npm",
+      "mobile": [],
+      "desktop": [],
+      "pwa": false,
+      "auth": false,
+      "lazy": true,
+      "e2e": false,
+      "cypress": true,
+      "angulartics": false
+    }
+  }
+}
